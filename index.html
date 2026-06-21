@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pinnacle Estates — Luxury Real Estate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== STICKY NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <span class="nav-logo-icon"><i class="fas fa-building"></i></span>
+        <span class="nav-logo-text">Pinnacle<span class="nav-logo-accent">Estates</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#properties" class="nav-link">Properties</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <a href="#contact" class="nav-cta">Get Started <i class="fas fa-arrow-right"></i></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="hero-badge">Premium Real Estate Services</span>
+        <h1 class="hero-title">Discover Your<br /><span class="hero-title-accent">Dream Property</span></h1>
+        <p class="hero-desc">Curating exceptional properties for discerning clients. From luxury estates to modern residences, we connect you with homes that define sophistication.</p>
+        <div class="hero-buttons">
+          <a href="#properties" class="btn btn-primary">Explore Properties <i class="fas fa-arrow-right"></i></a>
+          <a href="#about" class="btn btn-secondary">Learn More <i class="fas fa-chevron-right"></i></a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-num">2,400+</span>
+            <span class="hero-stat-label">Properties Sold</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">98%</span>
+            <span class="hero-stat-label">Client Satisfaction</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">25+</span>
+            <span class="hero-stat-label">Years Experience</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80" alt="Luxury modern home" class="hero-image" />
+          <div class="hero-image-card hero-card-1">
+            <i class="fas fa-home"></i>
+            <div>
+              <strong>$12.4M</strong>
+              <span>Featured Estate</span>
+            </div>
+          </div>
+          <div class="hero-image-card hero-card-2">
+            <i class="fas fa-star"></i>
+            <div>
+              <strong>4.9</strong>
+              <span>Client Rating</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRUST INDICATORS ========== -->
+  <section class="trust">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-card">
+          <div class="trust-icon"><i class="fas fa-home"></i></div>
+          <div class="trust-number" data-target="2400">0</div>
+          <div class="trust-label">Properties Sold</div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon"><i class="fas fa-user"></i></div>
+          <div class="trust-number" data-target="1800">0</div>
+          <div class="trust-label">Happy Clients</div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon"><i class="fas fa-calendar"></i></div>
+          <div class="trust-number" data-target="25">0</div>
+          <div class="trust-label">Years Experience</div>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon"><i class="fas fa-building"></i></div>
+          <div class="trust-number" data-target="340">0</div>
+          <div class="trust-label">Active Listings</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=700&q=80" alt="Luxury estate property" class="about-image" />
+          <div class="about-exp-card">
+            <span class="about-exp-num">25+</span>
+            <span class="about-exp-text">Years of Excellence</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-badge">About Us</span>
+          <h2 class="section-title">Your Trusted Partner in <span class="title-accent">Premium Real Estate</span></h2>
+          <p class="about-desc">With over two decades of experience, Pinnacle Estates has been at the forefront of luxury real estate, delivering exceptional properties and unparalleled service to clients worldwide.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <div>
+                <strong>$2.4B+ Portfolio Value</strong>
+                <span>Managed across premium properties</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <div>
+                <strong>Global Network</strong>
+                <span>Partners in 30+ countries</span>
+              </div>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-check-circle"></i>
+              <div>
+                <strong>Award-Winning Service</strong>
+                <span>Recognized by industry leaders</span>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">Schedule Consultation <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FEATURED PROPERTIES ========== -->
+  <section class="properties" id="properties">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Featured Properties</span>
+        <h2 class="section-title">Exceptional <span class="title-accent">Properties</span></h2>
+        <p class="section-desc">Handpicked luxury residences that epitomize elegance, comfort, and architectural brilliance.</p>
+      </div>
+      <div class="properties-grid">
+        <div class="property-card">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80" alt="Modern villa" />
+            <span class="property-badge">For Sale</span>
+          </div>
+          <div class="property-info">
+            <h3 class="property-title">Modern Hillside Villa</h3>
+            <div class="property-location"><i class="fas fa-map-pin"></i> Beverly Hills, CA</div>
+            <div class="property-price">$4,850,000</div>
+            <div class="property-specs">
+              <span><i class="fas fa-bed"></i> 5 Beds</span>
+              <span><i class="fas fa-bath"></i> 4 Baths</span>
+              <span><i class="fas fa-vector-square"></i> 5,200 sqft</span>
+            </div>
+            <a href="#" class="btn btn-outline property-btn">View Details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="property-card">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Luxury estate" />
+            <span class="property-badge">For Sale</span>
+          </div>
+          <div class="property-info">
+            <h3 class="property-title">Palm Beach Estate</h3>
+            <div class="property-location"><i class="fas fa-map-pin"></i> Palm Beach, FL</div>
+            <div class="property-price">$12,400,000</div>
+            <div class="property-specs">
+              <span><i class="fas fa-bed"></i> 7 Beds</span>
+              <span><i class="fas fa-bath"></i> 6 Baths</span>
+              <span><i class="fas fa-vector-square"></i> 8,700 sqft</span>
+            </div>
+            <a href="#" class="btn btn-outline property-btn">View Details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="property-card">
+          <div class="property-image">
+            <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=600&q=80" alt="Contemporary home" />
+            <span class="property-badge">For Sale</span>
+          </div>
+          <div class="property-info">
+            <h3 class="property-title">Contemporary Sky Residence</h3>
+            <div class="property-location"><i class="fas fa-map-pin"></i> Manhattan, NY</div>
+            <div class="property-price">$8,200,000</div>
+            <div class="property-specs">
+              <span><i class="fas fa-bed"></i> 4 Beds</span>
+              <span><i class="fas fa-bath"></i> 3 Baths</span>
+              <span><i class="fas fa-vector-square"></i> 3,800 sqft</span>
+            </div>
+            <a href="#" class="btn btn-outline property-btn">View Details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES SECTION ========== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Our Services</span>
+        <h2 class="section-title">Comprehensive <span class="title-accent">Real Estate Solutions</span></h2>
+        <p class="section-desc">From first consultation to final closing, we provide end-to-end support for all your real estate needs.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Buying Assistance</h3>
+          <p>Expert guidance to find and secure your ideal property at the best value.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-tag"></i></div>
+          <h3>Selling Assistance</h3>
+          <p>Strategic marketing and negotiation to maximize your property's value.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Investment Guidance</h3>
+          <p>Data-driven insights for profitable real estate investment opportunities.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-clipboard-check"></i></div>
+          <h3>Property Valuation</h3>
+          <p>Accurate market analysis and professional property appraisal services.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-city"></i></div>
+          <h3>Commercial Real Estate</h3>
+          <p>Premier commercial properties for businesses and investment portfolios.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon"><i class="fas fa-tree"></i></div>
+          <h3>Residential Real Estate</h3>
+          <p>Curated selection of luxury homes, apartments, and estates worldwide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== WHY CHOOSE US ========== -->
+  <section class="why">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Why Choose Us</span>
+        <h2 class="section-title">The <span class="title-accent">Pinnacle</span> Advantage</h2>
+        <p class="section-desc">What sets us apart in the world of luxury real estate.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-medal"></i></div>
+          <h3>Unmatched Expertise</h3>
+          <p>Deep market knowledge and years of experience in luxury property transactions.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-globe"></i></div>
+          <h3>Global Presence</h3>
+          <p>International network spanning 30+ countries and major markets worldwide.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-user-tie"></i></div>
+          <h3>Personalized Service</h3>
+          <p>Dedicated agents providing white-glove service throughout your journey.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Absolute Integrity</h3>
+          <p>Transparent dealings and ethical practices you can trust completely.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Testimonials</span>
+        <h2 class="section-title">What Our <span class="title-accent">Clients Say</span></h2>
+      </div>
+      <div class="testimonials-slider" id="testimonialSlider">
+        <div class="testimonial-card active">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Working with Pinnacle Estates was an exceptional experience. They found us the perfect home and handled every detail with professionalism and care."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="Client" />
+            <div>
+              <strong>James Mitchell</strong>
+              <span>Homeowner, Beverly Hills</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"The team's market knowledge and negotiation skills resulted in a sale price well above our expectations. Truly world-class service from start to finish."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80" alt="Client" />
+            <div>
+              <strong>Robert Chen</strong>
+              <span>Seller, Manhattan</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"As an international buyer, I needed a team that understood cross-border transactions. Pinnacle made it seamless and stress-free. Highly recommended."</p>
+          <div class="testimonial-author">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="Client" />
+            <div>
+              <strong>David Park</strong>
+              <span>Investor, Singapore</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-dots" id="testimonialDots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROPERTY GALLERY ========== -->
+  <section class="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Gallery</span>
+        <h2 class="section-title">Our <span class="title-accent">Portfolio</span></h2>
+        <p class="section-desc">A curated collection of our finest properties and architectural marvels.</p>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-item-lg">
+        <img src="https://images.unsplash.com/photo-1756435292384-1bf32eff7baf?w=800&q=80" alt="Luxury home exterior" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1773754532196-014342510e64?w=500&q=80" alt="Modern living room" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=500&q=80" alt="Contemporary building" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=500&q=80" alt="Modern architecture" />
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1600585153490-76fb20a32601?w=500&q=80" alt="Kitchen interior" />
+      </div>
+      <div class="gallery-item gallery-item-lg">
+        <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80" alt="Pool villa" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CALL TO ACTION ========== -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Ready to Find Your Dream Property?</h2>
+        <p class="cta-desc">Let our expert team guide you through every step of your real estate journey. Schedule a private consultation today.</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Get in Touch <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Contact Us</span>
+        <h2 class="section-title">Let's <span class="title-accent">Connect</span></h2>
+        <p class="section-desc">Whether you're buying, selling, or investing, we're here to help.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-info-card">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+1 (310) 555-0142</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p>hello@pinnacleestates.com</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <i class="fas fa-location-dot"></i>
+            <div>
+              <h4>Office</h4>
+              <p>9457 Wilshire Blvd, Beverly Hills, CA 90210</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Hours</h4>
+              <p>Mon – Fri: 9 AM – 7 PM</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <input type="text" placeholder=" " required />
+              <label>Full Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder=" " required />
+              <label>Email Address</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <input type="tel" placeholder=" " />
+              <label>Phone Number</label>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder=" " />
+              <label>Subject</label>
+            </div>
+          </div>
+          <div class="form-group form-group-full">
+            <textarea placeholder=" " rows="5" required></textarea>
+            <label>Your Message</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SOCIAL MEDIA SECTION ========== -->
+  <section class="social-section">
+    <div class="container">
+      <h3>Follow Our Journey</h3>
+      <div class="social-links">
+        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="#" class="social-link" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FLOATING WHATSAPP BUTTON ========== -->
+  <a href="https://wa.me/13105550142" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="nav-logo-icon"><i class="fas fa-building"></i></span>
+            <span class="nav-logo-text">Pinnacle<span class="nav-logo-accent">Estates</span></span>
+          </a>
+          <p>Setting the standard for luxury real estate worldwide. Your vision, our expertise — creating extraordinary outcomes.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Property Types</h4>
+          <ul>
+            <li><a href="#">Luxury Villas</a></li>
+            <li><a href="#">Modern Apartments</a></li>
+            <li><a href="#">Commercial Spaces</a></li>
+            <li><a href="#">Land Estates</a></li>
+            <li><a href="#">Investment Properties</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> +1 (310) 555-0142</li>
+            <li><i class="fas fa-envelope"></i> hello@pinnacleestates.com</li>
+            <li><i class="fas fa-location-dot"></i> 9457 Wilshire Blvd<br />Beverly Hills, CA 90210</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Pinnacle Estates. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
